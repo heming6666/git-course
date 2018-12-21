@@ -1,0 +1,14 @@
+{
+  "title": "Deploying Your First Docker Container",
+  "description": "Learn how to launch containers using Docker",
+  "environment": {
+    "image": "docker",
+    "cmd": "/bin/bash"
+  },
+  "pre": "pre.sh",
+  "steps": [
+    "steps/step1",
+    "steps/step2",
+    "steps/step3"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Second Scenario",
+  "description": "Second Scenario",
+  "environment": {
+    "image": "ubuntu",
+    "cmd": "/bin/bash"
+  },
+  "pre": "pre.sh",
+  "steps": [
+    "steps/step1",
+    "steps/step2"
+  ]
+}
