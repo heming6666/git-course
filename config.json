@@ -1,0 +1,10 @@
+{
+  "version": "1",
+  "title": "Docker & Containers",
+  "author": "Kfcoding",
+  "description": "Learn how to deploy your applications using Docker",
+  "scenarios": [
+    "scenarios/scenario1",
+    "scenarios/scenario2"
+  ]
+}
