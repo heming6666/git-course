@@ -1,34 +1,10 @@
-It's important to note that you will always be *inside* a single directory when using the terminal. The default behaviour is that when you open a new terminal you start in your own *home* directory (containing files and directories that only you can modify). To see what files and directories are in our home directory, we need to use the [ls][] command. This command lists the contents of a directory.
+#  Step 1 - Git Init
+首先我们需要创建版本库。什么是版本库呢？版本库又名仓库，英文名`repository`，你可以简单理解成一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。
 
-If we run the `ls`{{execute}} command we should see something like:
-
+## 任务
+创建一个版本库非常简单，通过`git init`命令可以把当前目录变成Git可以管理的仓库：
 ```bash
-learner@host01:~$ ls
-a_directory another_directory
-learner@host01:~$
+git init
 ```
-
-There are three things that you should note here:
-
-1. The `learner@host01:~$` text that you see is the Unix [command prompt][]. In this case, it contains a user name ('learner'), the name of the host computer (host01), and the name of the current directory ('~', more on that later). Note that the command prompt might not look the same on different Unix systems. In this case, the `$` sign marks the end of the prompt.
-2. The output of the `ls` command lists two things. In this case, they are both directories, but they could also be files. We'll learn how to tell them apart later on.
-3. After the `ls` command finishes it produces a new command prompt, ready for you to type your next command.
-
-The `ls` command is used to list the contents of _any_ directory, not necessarily the one that you are currently in. Try the following:
-
-`ls /`{{execute}}
-
-```bash
-learner@host01:~$ ls /
-bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
-```
-
-`ls /etc/perl`{{execute}}
-
-```bash
-learner@host01:~$ ls /etc/perl
-CPAN  Net
-```
-
-[ls]: http://en.wikipedia.org/wiki/Ls
-[command prompt]: http://en.wikipedia.org/wiki/Command_line_interface
+## 小贴士
+初始化仓库后，可以发现当前目录下多了一个`.git`的目录，这个目录是Git来跟踪管理版本库的，该目录默认是隐藏的，用`ls -ah`命令就可以看见。

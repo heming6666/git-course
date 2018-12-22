@@ -1,6 +1,6 @@
 {
-  "title": "运行第一个容器",
-  "description": "运行第一个容器",
+  "title": "Step 1 - Git Init",
+  "description": "Step 1 - Git Init",
   "text": "text.md",
   "pre": "pre.sh",
   "verify": "verify.sh"

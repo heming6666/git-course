@@ -1,2 +1,2 @@
-# Linux Command Line Course
-provide the reader with a basic overview of essential Unix/Linux commands
+# Kfcoding Course -- Git 
+Learn Git Version Control using Interactive Browser-Based Scenarios

@@ -1,5 +1,6 @@
 {
-  "title": "找到正在运行中的容器",
-  "description": "Finding Running Containers",
-  "text": "text.md"
+  "title": "Step 2 - Git Status",
+  "description": "Step 2 - Git Status",
+  "text": "text.md",
+  "pre": "pre.sh"
 }

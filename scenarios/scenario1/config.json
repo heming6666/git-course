@@ -1,8 +1,8 @@
 {
-  "title": "Deploying Your First Docker Container",
-  "description": "Learn how to launch containers using Docker",
+  "title": "Committing Files",
+  "description": "学习如何初始化一个Git仓库，并添加文件到Git仓库",
   "environment": {
-    "image": "docker",
+    "image": "git",
     "cmd": "/bin/bash"
   },
   "pre": "pre.sh",

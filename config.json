@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "title": "Linux Command Line Course",
+  "title": "Git 教程",
   "author": "Kfcoding",
-  "description": "provide the reader with a basic overview of essential Unix/Linux commands",
+  "description": "学习世界上目前最先进的分布式版本控制系统。浅显易懂的Git教程，可边学边练，实用性超强",
   "scenarios": [
     "scenarios/scenario1",
     "scenarios/scenario2"
