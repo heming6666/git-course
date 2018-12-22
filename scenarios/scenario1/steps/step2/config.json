@@ -1,5 +1,6 @@
 {
   "title": "检查仓库状态",
   "description": "检查仓库状态",
-  "text": "text.md"
+  "text": "text.md",
+  "pre": "pre.sh"
 }
