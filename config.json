@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "title": "Docker & Containers",
+  "title": "Linux Command Line Course",
   "author": "Kfcoding",
-  "description": "Learn how to deploy your applications using Docker",
+  "description": "provide the reader with a basic overview of essential Unix/Linux commands",
   "scenarios": [
     "scenarios/scenario1",
     "scenarios/scenario2"

@@ -1,22 +1,34 @@
-# 运行第一个容器
+It's important to note that you will always be *inside* a single directory when using the terminal. The default behaviour is that when you open a new terminal you start in your own *home* directory (containing files and directories that only you can modify). To see what files and directories are in our home directory, we need to use the [ls][] command. This command lists the contents of a directory.
 
-第一个任务是运行一个 `Redis` 容器。首先我们需要确定 Docker 镜像的名称。在 Doker 中，所有容器都是基于 Doker 镜像启动的。这些镜像包含了启动该过程所需的一切而不需要任何配置或依赖项。 
-
-Jane 可以在 registry.hub.docker.com/ 找到现有的镜像，或者使用 `docker search <name>`命令 。例如，要查找`Redis`的镜像，可以使用以下 docker 命令：
-```bash
-docker search redis
-```
-## 任务
-
-通过使用`search`命令，Jane 知道了`Redis` 的Docker 镜像是 `Redis`，并希望运行该镜像的最新版本。因为`Redis`是一个数据库，Jane 希望将其作为后台服务运行。 
-
-我们可以使用 `docker run <options> <image-name>` 命令来启动一个容器。该命令默认在前台运行。为了能让容器在后台运行，需要指定`-d`参数。
+If we run the `ls`{{execute}} command we should see something like:
 
 ```bash
-docker run -d redis
+learner@host01:~$ ls
+a_directory another_directory
+learner@host01:~$
 ```
-Docker 默认将会运行该镜像的`latest`最新版本。如果需要指定某个版本，需要添加该版本的标签。例如：
+
+There are three things that you should note here:
+
+1. The `learner@host01:~$` text that you see is the Unix [command prompt][]. In this case, it contains a user name ('learner'), the name of the host computer (host01), and the name of the current directory ('~', more on that later). Note that the command prompt might not look the same on different Unix systems. In this case, the `$` sign marks the end of the prompt.
+2. The output of the `ls` command lists two things. In this case, they are both directories, but they could also be files. We'll learn how to tell them apart later on.
+3. After the `ls` command finishes it produces a new command prompt, ready for you to type your next command.
+
+The `ls` command is used to list the contents of _any_ directory, not necessarily the one that you are currently in. Try the following:
+
+`ls /`{{execute}}
+
 ```bash
-docker run -d redis：3.2
+learner@host01:~$ ls /
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
-因为这是 Jane 第一次使用 `Redis` 镜像, 该镜像将会被下载到 Docker Host machine 中.
+
+`ls /etc/perl`{{execute}}
+
+```bash
+learner@host01:~$ ls /etc/perl
+CPAN  Net
+```
+
+[ls]: http://en.wikipedia.org/wiki/Ls
+[command prompt]: http://en.wikipedia.org/wiki/Command_line_interface
