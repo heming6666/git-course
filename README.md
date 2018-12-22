@@ -1,2 +1,2 @@
-# Kfcoding Course -- Docker & Containers
-Learn how to deploy your applications using Docker
+# Linux Command Line Course
+provide the reader with a basic overview of essential Unix/Linux commands
