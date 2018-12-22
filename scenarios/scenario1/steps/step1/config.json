@@ -1,6 +1,6 @@
 {
-  "title": "Step 1 - Git Init",
-  "description": "Step 1 - Git Init",
+  "title": "创建代码仓库",
+  "description": "创建代码仓库",
   "text": "text.md",
   "pre": "pre.sh",
   "verify": "verify.sh"

@@ -1,6 +1,5 @@
 {
-  "title": "Step 2 - Git Status",
-  "description": "Step 2 - Git Status",
-  "text": "text.md",
-  "pre": "pre.sh"
+  "title": "检查仓库状态",
+  "description": "检查仓库状态",
+  "text": "text.md"
 }
