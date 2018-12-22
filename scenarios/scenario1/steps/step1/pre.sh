@@ -1,4 +1,4 @@
-mkdir -p /home/scrapbook/tutorial/1
-cd /home/scrapbook/tutorial/1
+mkdir -p /home/tutorial
+cd /home/tutorial
 touch hello-world.js
 echo "console.log(\"Hello World\");" >> hello-world.js
