@@ -1,13 +1,14 @@
 {
-  "title": "Second Scenario",
-  "description": "Second Scenario",
+  "title": "提交修改",
+  "description": "学习如何查看修改，并提交修改",
   "environment": {
-    "image": "ubuntu",
+    "image": "git",
     "cmd": "/bin/bash"
   },
   "pre": "pre.sh",
   "steps": [
     "steps/step1",
-    "steps/step2"
+    "steps/step2",
+    "steps/step3"
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "title": "The First Step",
-  "description": "This is the first step",
+  "title": "Step 1 - Git Status",
+  "description": "Step 1 - Git Status",
   "text": "text.md",
   "pre": "pre.sh",
   "verify": "verify.sh"
