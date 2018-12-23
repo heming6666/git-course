@@ -7,6 +7,7 @@
   },
   "pre": "pre.sh",
   "steps": [
+    "steps/step0",
     "steps/step1",
     "steps/step2",
     "steps/step3",
