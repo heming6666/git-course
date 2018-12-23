@@ -1,0 +1,14 @@
+{
+  "title": "3",
+  "description": "3",
+  "environment": {
+    "image": "git",
+    "cmd": "/bin/bash"
+  },
+  "pre": "pre.sh",
+  "steps": [
+    "steps/step1",
+    "steps/step2",
+    "steps/step3"
+  ]
+}

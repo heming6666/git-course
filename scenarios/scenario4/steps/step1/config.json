@@ -1,0 +1,7 @@
+{
+  "title": "创建代码仓库 git init",
+  "description": "创建代码仓库 git init",
+  "text": "text.md",
+  "pre": "pre.sh",
+  "verify": "verify.sh"
+}

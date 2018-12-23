@@ -1,6 +1,6 @@
 {
-  "title": "提交新文件",
-  "description": "学习如何初始化一个Git仓库，并提交新文件到Git仓库",
+  "title": "4",
+  "description": "4",
   "environment": {
     "image": "git",
     "cmd": "/bin/bash"
