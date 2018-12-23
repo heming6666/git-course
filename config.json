@@ -5,6 +5,8 @@
   "description": "学习世界上目前最先进的分布式版本控制系统。浅显易懂的Git教程，可边学边练，实用性超强",
   "scenarios": [
     "scenarios/scenario1",
-    "scenarios/scenario2"
+    "scenarios/scenario2",
+    "scenarios/scenario3",
+    "scenarios/scenario4"
   ]
 }
