@@ -1,1 +1,0 @@
-[ -d ./git ] && echo "done"
